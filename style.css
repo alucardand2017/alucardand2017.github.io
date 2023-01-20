@@ -6,17 +6,21 @@
     margin-bottom:0;
     margin-right:auto;
      background-color:#666;
+     z-index: 0;
   }
 #header{
     width:1400px;
     height:50px;
     background-color:#2A3D45;
-    box-shadow: 5px 5px 5px rgb(107, 122, 107);
+    box-shadow: inset 5px 5px 10px grey;
+
+    z-index: 100;
 }
 #conteudo{
     width:1400px;
-    height:auto;
-    background-color:#131219;
+    height: 1237px;;
+    background-color:#f5f5f5;
+    z-index: 1;
     }
 .nav-bar-esq, .nav-bar-dir, .nav-bar{
     display: flex;
@@ -26,6 +30,12 @@
     font-size: 20px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+.conteudo-centra{
+    width:1400px;
+    height:10px;
+    float:left;
+    background-color:#080808;
+    }
 a:-webkit-any-link {
     color: white;
     cursor: pointer;
@@ -43,20 +53,23 @@ li{
     margin-right: 30px;
     border: none;
 }
-#footer{
-    width:1400px;
-    height:50px;
-    background-color:#2A3D45;
-    }
+
 .conteudo-left{
     width:700px;
     height:300px;
     float:left;
-    background-color:#E6E8E6;
+    background-color:#f5f5f5;
     }
 .conteudo-right{
     width:700px;
     height:300px;
     float:left;
-    background-color:#E6E8E6;
+    background-color:#f5f5f5;
+    }
+    #footer{
+        width:1400px;
+        height: 50px;
+        margin-bottom: 0;
+        margin-left: 0;
+        background-color:#9cb3bd;
     }
